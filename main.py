@@ -8,12 +8,13 @@ load_dotenv()
 openai.api_key = os.environ["OPENAI_API_KEY"]
 
 pack_folder = "./resume_screener_pack"
-if not os.path.exists(pack_folder):
-    ResumeScreenerPack = download_llama_pack("ResumeScreenerPack", pack_folder)
-else:
-    from resume_screener_pack.llama_index.packs.resume_screener import (
-        ResumeScreenerPack,
-    )
+ResumeScreenerPack = download_llama_pack("ResumeScreenerPack", pack_folder)
+# if not os.path.exists(pack_folder):
+#     ResumeScreenerPack = download_llama_pack("ResumeScreenerPack", pack_folder)
+# else:
+#     from resume_screener_pack.llama_index.packs.resume_screener import (
+#         ResumeScreenerPack,
+#     )
 
 
 def fact_check_resume(resume_content, criteria_decisions):
