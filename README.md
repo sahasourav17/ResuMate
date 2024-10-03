@@ -2,6 +2,11 @@
 
 AI-powered resume screening app using Streamlit, OpenAI, and LlamaIndex. Automate candidate evaluation and boost hiring efficiency.
 
+## Features:
+- Generates Criteria Decisions and reasoing based on job descriptions and selection criteria
+- Fact Checking (Though it need to be improved and suggestions are welcome)
+- Resume Rating (scale of 10)
+
 ![ResuMate Homepage](./images//resumate_home.png)
 
 ## Guidelines to follow
