@@ -22,7 +22,10 @@ Example:
 
 Installation Instructions:
 
-- Create a `.env` file in the root directory and configure `OPENAI_API_KEY`.
-- Create a virtual environment
-- `pip install -r requirements.txt`
-- After successful installation, run `streamlit run main.py`
+1. Clone this repo
+2. Create a `.env` file in the root directory and configure `OPENAI_API_KEY`.
+3. Create a virtual environment
+4. `pip install -r requirements.txt`
+5. After successful installation, run `streamlit run main.py`
+
+If you have docker installed on your system then Skip step 3,4 and 5 and  run `docker-compose up`
